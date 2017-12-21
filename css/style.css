@@ -15,7 +15,7 @@
 
 .calculator-body {
   border-radius: 10px;
-  box-shadow: 3px 3px 100px;
+  box-shadow: 3px 3px 100px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-flow: column wrap;
   width: 400px;
@@ -36,6 +36,7 @@
   font-weight: bold;
   flex-direction: column;
   flex-grow: 2;
+  height: 15px;
   justify-content: center;
   text-align: right;
   padding-right: 50px; }
@@ -43,9 +44,11 @@
 .result-div_expression {
   color: #95a5a6;
   background: #ecf0f1;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  height: 5px;
   justify-content: center;
   text-align: right;
   padding-right: 50px; }
